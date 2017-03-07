@@ -1,4 +1,4 @@
-module Robocon2017Tutorial
+module AgileRoboticsTutorial
 
 # package code goes here
 

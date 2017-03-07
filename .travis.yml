@@ -23,4 +23,4 @@ before_install:
 script:
   - julia -e 'Pkg.clone("https://github.com/rdeits/DrakeVisualizer.jl"); Pkg.checkout("DrakeVisualizer", "robocon2017"); Pkg.build("DrakeVisualizer")'
   - if [[ -a .git/shallow ]]; then git fetch --unshallow; fi
-  - julia -e 'Pkg.clone(pwd()); Pkg.build("Robocon2017Tutorial"); Pkg.test("Robocon2017Tutorial"; coverage=true)'
+  - julia -e 'Pkg.clone(pwd()); Pkg.build("AgileRoboticsTutorial"); Pkg.test("AgileRoboticsTutorial"; coverage=true)'
