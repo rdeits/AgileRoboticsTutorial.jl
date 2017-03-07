@@ -1,7 +1,7 @@
-using Robocon2017Tutorial
+using AgileRoboticsTutorial
 using Base.Test
 
-const module_tempdir = joinpath(Base.tempdir(), string(module_name(Robocon2017Tutorial)))
+const module_tempdir = joinpath(Base.tempdir(), string(module_name(AgileRoboticsTutorial)))
 
 @testset "example notebooks" begin
     using IJulia

@@ -1,7 +1,5 @@
-# Robocon2017Tutorial
+# AgileRoboticsTutorial
 
-[![Build Status](https://travis-ci.org/tkoolen/Robocon2017Tutorial.jl.svg?branch=master)](https://travis-ci.org/tkoolen/Robocon2017Tutorial.jl)
-
-These files were used in the presentation "Julia for Robotics" at the [2017 MIT Robocon](http://robocon.mit.edu/speakers.html#breakout) by Professor Alan Edelman (@alanedelman), Twan Koolen @tkoolen, and Robin Deits @rdeits. 
+[![Build Status](https://travis-ci.org/rdeits/AgileRoboticsTutorial.jl.svg?branch=master)](https://travis-ci.org/rdeits/AgileRoboticsTutorial.jl)
 
 To follow along with the presentation, take a look at the Jupyter notebooks in the `notebooks` folder. 
