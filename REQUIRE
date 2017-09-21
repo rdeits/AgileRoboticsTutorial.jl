@@ -1,5 +1,6 @@
 julia 0.6
 IJulia 1.6.1
+Ipopt 0.2.6
 RigidBodyDynamics 0.4.0
 DrakeVisualizer 0.2.1
 RigidBodyTreeInspector 0.3.1
