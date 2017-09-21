@@ -6,8 +6,7 @@ os:
   - linux
   # - osx
 julia:
-  - release
-  # - nightly
+  - 0.6
 notifications:
   email: false
 branches:
@@ -16,6 +15,7 @@ before_install:
   - sudo apt-get install gcc gfortran -y
   - export PYTHON=""
   - julia -e 'Pkg.add("Conda"); using Conda; Conda.add("numpy")'
+  - julia -e 'Pkg.add("RigidBodyTreeInspector"); Pkg.checkout("RigidBodyTreeInspector")'
 
 # uncomment the following lines to override the default test script
 script:
